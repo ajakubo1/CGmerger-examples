@@ -1,6 +1,6 @@
 
 // Code taken from https://www.codingame.com/ide/puzzle/coders-strike-back for
-// javascript
+// typescript
 
 /**
  * Auto-generated code below aims at helping you parse
