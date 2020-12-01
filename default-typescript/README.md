@@ -14,7 +14,7 @@ header = ../header.ts
 footer = main.ts
 file_regex = .*.ts
 exclude_line_regex = ^import
-remove_regex = ^export
+remove_parts_regex = ^export
 comment = //
 separator_start = -
 separator_end = =
@@ -30,7 +30,7 @@ separator_length = 80
 ``codingame/../header.ts`` (value relative to ``workdir``).
 - ``file_regex = .*.ts`` - only ``.ts`` files will be added to the ``output``.
 - ``exclude_line_regex = ^import`` - exclude all of lines starting with ``import``.
-- ``remove_regex = ^export`` - remove from all of lines every mention of
+- ``remove_parts_regex = ^export`` - remove from all of lines every mention of
 ``^export`` string. The rest of the line is preserved, only ``export`` will be
  removed from the line.
 - ``comment = //`` - comment used to indicate contents of different files will be
